@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
+    "cairn.gemspec",
     "example/.gitignore",
     "example/Rakefile",
     "example/db/config.yml",
