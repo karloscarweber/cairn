@@ -1,3 +1,7 @@
+# Cairn
+
+Cairn is a mirror/fork of [standalone-migrations](https://github.com/thuss/standalone-migrations), which sometimes goes a while without a bug fix.
+
 Rails migrations in non-Rails (and non Ruby) projects.
 
 [![Build Status](https://travis-ci.org/thuss/standalone-migrations.svg?branch=master)](https://travis-ci.org/thuss/standalone-migrations)

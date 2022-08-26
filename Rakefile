@@ -40,11 +40,11 @@ rescue LoadError => e
   $stderr.puts "Install it with: sudo gem install jeweler"
 else
   Jeweler::Tasks.new do |gem|
-    gem.name = 'standalone_migrations'
+    gem.name = 'cairn'
     gem.summary = "A thin wrapper to use Rails Migrations in non Rails projects"
-    gem.email = "thuss@gabrito.com"
-    gem.homepage = "http://github.com/thuss/standalone-migrations"
-    gem.authors = ["Todd Huss", "Michael Grosser"]
+    gem.email = "me@kow.fm"
+    gem.homepage = "http://github.com/karloscarweber/cairn"
+    gem.authors = ["Karl Oscar Weber"]
     gem.license = "MIT"
   end
 
