@@ -1,0 +1,1 @@
+require_relative "standalone_migrations"

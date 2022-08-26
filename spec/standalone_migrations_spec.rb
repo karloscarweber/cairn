@@ -46,10 +46,10 @@ describe 'Standalone migrations' do
     write 'Rakefile', <<-TXT
 $LOAD_PATH.unshift '#{File.expand_path('lib')}'
 begin
-  require "standalone_migrations"
+  require "cairn"
   StandaloneMigrations::Tasks.load_tasks
 rescue LoadError => e
-  puts "gem install standalone_migrations to get db:migrate:* tasks! (Error: \#{e})"
+  puts "gem install cairn to get db:migrate:* tasks! (Error: \#{e})"
 end
     TXT
   end
