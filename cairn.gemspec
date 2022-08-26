@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "example/Rakefile",
     "example/db/config.yml",
     "example/db/migrate/20120930053225_create_table_awesome_migration.rb",
+    "lib/cairn.rb",
     "lib/standalone_migrations.rb",
     "lib/standalone_migrations/callbacks.rb",
     "lib/standalone_migrations/configurator.rb",
